@@ -1,0 +1,103 @@
+/* * {
+    margin: 0;
+    padding: 0;
+
+} */
+/* 
+.fundo{
+    background-image: linear-gradient(45deg, black, #3c096c);
+    height: 100vh;
+    width: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #9d4edd, #3c096c);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(1805deg, rgb(72, 7, 85), #6e1eaf);
+    /* background: #3a0ca3; */
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+    
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font: bold 1.5rem serif;
+    
+}
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(25deg, rgb(60, 4, 65), #21043b);
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.5rem serif;
+    background: #470883;
+    color: #000;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #240046;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
